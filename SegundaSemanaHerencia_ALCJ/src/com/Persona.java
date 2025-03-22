@@ -1,12 +1,13 @@
 package com;
 
 public class Persona {
-	
+
 	private String nombre;
 	private String genero;
 	private int edad;
 
-	public Persona() {}
+	public Persona() {
+	}
 
 	public Persona(String nombre, String genero, int edad) {
 		super();
@@ -54,56 +55,17 @@ public class Persona {
 	// Son aquellos que nos van a permitir ejecutar algo, pero no necesitan
 	// regresar o devolver un tipo de dato. Llevan la palabra reservada "void"
 
-	public String comer () {
-		System.out.println("Soy " + nombre + ". Estoy comiendo.....");
+	public String comer() {
+		return "Soy " + nombre + ". Estoy comiendo.....";
 	}
-	
-	//METODO CON RETORNO
-	//Son aquellos que ejecutan algo, pero ademas se ven obligados a devolver 
-	//un tipo de dato. El tipo de dato que declaran
+
+	// METODO CON RETORNO
+	// Son aquellos que ejecutan algo, pero ademas se ven obligados a devolver
+	// un tipo de dato. El tipo de dato que declaran
 
 	public String saludar() {
 		String saludo = "Hola buen dia mi nombre es " + nombre;
 		return saludo;
 	}
-	
-	
+
 }
-
-
-
-	
-
-	
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
-

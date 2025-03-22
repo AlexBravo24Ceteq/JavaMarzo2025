@@ -1,22 +1,23 @@
 package com;
 
 public class Ram {
-	
-	//Esta clase nos va a servir para crear memorias ram que formaran parte 
+
+	// Esta clase nos va a servir para crear memorias ram que formaran parte
 	// de la computadora
-	
+
 	private String marca;
 	private String tipo;
-	private double tamaño;
+	private double tamano;
 	private double frecuencia;
-	
-	public Ram() {}
 
-	public Ram(String marca, String tipo, double tamaño, double frecuencia) {
+	public Ram() {
+	}
+
+	public Ram(String marca, String tipo, double tamano, double frecuencia) {
 		super();
 		this.marca = marca;
 		this.tipo = tipo;
-		this.tamaño = tamaño;
+		this.tamano = tamano;
 		this.frecuencia = frecuencia;
 	}
 
@@ -36,12 +37,12 @@ public class Ram {
 		this.tipo = tipo;
 	}
 
-	public double getTamaño() {
-		return tamaño;
+	public double gettamano() {
+		return tamano;
 	}
 
-	public void setTamaño(double tamaño) {
-		this.tamaño = tamaño;
+	public void settamano(double tamano) {
+		this.tamano = tamano;
 	}
 
 	public double getFrecuencia() {
@@ -54,8 +55,7 @@ public class Ram {
 
 	@Override
 	public String toString() {
-		return "Ram [marca=" + marca + ", tipo=" + tipo + ", tamaño=" + tamaño + ", frecuencia=" + frecuencia + "]";
+		return "Ram [marca=" + marca + ", tipo=" + tipo + ", tamano=" + tamano + ", frecuencia=" + frecuencia + "]";
 	}
 
-	
 }
